@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badminton Lite</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at 50% 20%, #1f2c4d, #0b1020 70%);
+        font-family: "Trebuchet MS", "Arial", sans-serif;
+      }
+
+      #game-root {
+        border: 2px solid #6db9ff;
+        box-shadow: 0 0 20px rgba(109, 185, 255, 0.45);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-root"></div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
